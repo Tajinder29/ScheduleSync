@@ -1,0 +1,14 @@
+ #leaveDiv{
+            background-color: rgba(128, 128, 128, 0.452);
+            height:400px;
+            width:400px;
+            margin-left:400px;
+            margin-top: 90px;
+            border-radius: 5px;
+        }
+        #h1{
+            margin-left: 50px;
+        }
+        #btn{
+            align-items: center;
+        }

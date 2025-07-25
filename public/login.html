@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>  
+    <div id="form2">  
+    <form onsubmit="login(event)">
+    <h1>Login </h1>
+    <label>Email:</label>
+    <input type="Email" id="email" placeholder="Enter your email" required/>
+    <label>Password:</label>
+    <input type="password" id="paswrd" placeholder="Enter your password" required/>
+    <div class="roles-container">
+        <label for="roles">Select Roles : </label>
+    <input type="radio" id="admin" name="roles" value="Admin"/>
+    <label for="admin">Admin</label>
+    <input type="radio" id="teacher" name="roles" value="Teacher"/>
+    <label for="teacher">Teacher</label>
+    </div>
+    <button type="submit" >Login</button><a href="signup.html">Signup</a>
+        </form>
+    </div>
+    <script>
+function login(event){
+     event.preventDefault();
+const email=document.getElementById("email").value.trim();
+const password=document.getElementById("paswrd").value.trim();
+const role=document.querySelector('input[name="roles"]:checked')?.value;
+if(!role){
+    alert("plz select a role");
+    return; 
+}
+if (!email || !password || !role) {
+        alert("Please fill in all fields and select a role.");
+        return;
+    }
+const passwordCondition = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$/;
+if (!passwordCondition.test(password)) {
+        alert("Password must be at least 8 characters long and include:\n- Uppercase letter\n- Lowercase letter\n- Number\n- Special character");
+        return;
+    }
+fetch('/route/login',{
+    method:'POST',
+    headers:{'content-type':'application/json'},
+    body:JSON.stringify({email,password,role}),
+    credentials:'include'
+})
+.then(res =>res.json())
+.then(data=>{
+    if (role === "Admin") {
+          //window.location.href = "table.html";
+        window.location.href = "/table";
+      
+    } else if (role === "Teacher") {
+        localStorage.setItem("loginEmail",email);
+        //window.location.href = "Teachertable.html";
+        window.location.href = "/Teachertable";
+}
+})
+.catch(err =>{
+    console.log("Error:", err.message);
+    alert("Something went wrong. Try again.");
+})
+
+}
+</script>
+</body>
+
+</html>

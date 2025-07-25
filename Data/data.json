@@ -1,0 +1,272 @@
+[
+  {
+    "email": "teach1@gmail.com",
+    "timetable": [
+      {
+        "day": "Monday",
+        "lecture": "Lecture 1",
+        "subjectName": "WebDAV",
+        "roomNo": "1"
+      },
+      {
+        "day": "Monday",
+        "lecture": "Lecture 2",
+        "subjectName": "webDev",
+        "roomNo": "57"
+      },
+      {
+        "day": "Monday",
+        "lecture": "Lecture 3",
+        "subjectName": "webDev",
+        "roomNo": "67",
+        "startTime": "11:00",
+        "endTime": "12:00"
+      },
+      {
+        "day": "Monday",
+        "date": "2025-07-22",
+        "lecture": "Lecture 4",
+        "subjectName": "math",
+        "roomNo": "57",
+        "startTime": "12:00",
+        "endTime": "01:00"
+      },
+      {
+        "day": "Thrusday",
+        "date": "2025-07-23",
+        "lecture": "Lecture 2",
+        "subjectName": "sst",
+        "roomNo": "56",
+        "startTime": "10:00",
+        "endTime": "11:00"
+      },
+      {
+        "day": "Thursday",
+        "date": "2025-07-23",
+        "lecture": "Lecture 2",
+        "subjectName": "sst",
+        "roomNo": "56",
+        "startTime": "10:00",
+        "endTime": "11:00"
+      },
+      {
+        "day": "Thursday",
+        "date": "2025-07-23",
+        "lecture": "Lecture 4",
+        "subjectName": "eng",
+        "roomNo": "56",
+        "startTime": "12:00",
+        "endTime": "01:00"
+      }
+    ]
+  },
+  {
+    "email": "teach2@gmail.com",
+    "timetable": [
+      {
+        "day": "Monday",
+        "lecture": "Lecture 3",
+        "subjectName": "webDev",
+        "roomNo": "67",
+        "startTime": "11:00",
+        "endTime": "12:00"
+      },
+      {
+        "day": "Friday",
+        "lecture": "Lecture 3",
+        "subjectName": "english",
+        "roomNo": "78",
+        "startTime": "11:00",
+        "endTime": "12:00"
+      },
+      {
+        "day": "Monday",
+        "lecture": "Lecture 2",
+        "subjectName": "Hindi",
+        "roomNo": "67"
+      },
+      {
+        "day": "Tuesday",
+        "lecture": "Lecture 1",
+        "subjectName": "Hindi",
+        "roomNo": "67"
+      },
+      {
+        "day": "Thursday",
+        "date": "2025-07-23",
+        "lecture": "Lecture 1",
+        "subjectName": "eng",
+        "roomNo": "56",
+        "startTime": "12:00",
+        "endTime": "01:00"
+      },
+      {
+        "day": "Thursday",
+        "date": "2025-07-23",
+        "lecture": "Lecture 2",
+        "subjectName": "sst",
+        "roomNo": "87",
+        "startTime": "12:00",
+        "endTime": "01:00"
+      },
+      {
+        "day": "Friday",
+        "date": "2025-07-23",
+        "lecture": "Lecture 5",
+        "subjectName": "Hindi",
+        "roomNo": "67",
+        "startTime": "01:00",
+        "endTime": "02:00"
+      }
+    ]
+  },
+  {
+    "email": "teach1@gmail.com",
+    "password": "1234qwer!Q",
+    "role": "Teacher",
+    "timetable": []
+  },
+  {
+    "email": "teach1@gmail.com",
+    "password": "1234qwer!Q",
+    "role": "Teacher",
+    "timetable": []
+  },
+  {
+    "email": "tajinder@gmail.com",
+    "password": "123qwe!Q",
+    "role": "Admin",
+    "timetable": []
+  },
+  {
+    "email": "teach4@gmail.com",
+    "timetable": [
+      {
+        "day": "Friday",
+        "lecture": "Lecture 1",
+        "subjectName": "english",
+        "roomNo": "78",
+        "startTime": "09:00",
+        "endTime": "10:00"
+      }
+    ]
+  },
+  {
+    "email": "teach1@gmail.com",
+    "password": "1234qwer!Q",
+    "role": "Teacher",
+    "timetable": []
+  },
+  {
+    "email": "tajinder@gmail.com",
+    "password": "123qwe!Q",
+    "role": "Admin",
+    "timetable": []
+  },
+  {
+    "email": "teach1@gmail.com",
+    "password": "1234qwer!Q",
+    "role": "Teacher",
+    "timetable": []
+  },
+  {
+    "email": "teach2@gmail.com",
+    "password": "1234qwer!Q",
+    "role": "Teacher",
+    "timetable": []
+  },
+  {
+    "email": "tajinder@gmail.com",
+    "password": "123qwe!Q",
+    "role": "Admin",
+    "timetable": []
+  },
+  {
+    "email": "teach1@gmail.com",
+    "password": "1234qwer!Q",
+    "role": "Teacher",
+    "timetable": []
+  },
+  {
+    "email": "tajinderkaur30hr@gmail.com",
+    "password": "123qwe!Q",
+    "role": "Admin",
+    "timetable": []
+  },
+  {
+    "email": "asdfsdfsdf@gmail.com",
+    "timetable": [
+      {
+        "day": "Monday",
+        "lecture": "Lecture 1",
+        "subjectName": "asdad",
+        "roomNo": "3",
+        "startTime": "12:42",
+        "endTime": "13:42"
+      }
+    ]
+  },
+  {
+    "email": "sid@123gmail.com",
+    "password": "Sid@1234",
+    "role": "Teacher",
+    "timetable": []
+  },
+  {
+    "email": "teach3@gmail.com",
+    "timetable": [
+      {
+        "day": "Monday",
+        "lecture": "Lecture 1",
+        "subjectName": "webDev",
+        "roomNo": "67",
+        "startTime": "09:00",
+        "endTime": "10:00"
+      },
+      {
+        "day": "Monday",
+        "lecture": "Lecture 7",
+        "subjectName": "webDev",
+        "roomNo": "67",
+        "startTime": "03:00",
+        "endTime": "04:00"
+      }
+    ]
+  },
+  {
+    "email": "tajinder@gmail.com",
+    "password": "123qwe!Q",
+    "role": "Admin",
+    "timetable": []
+  },
+  {
+    "email": "tajinder@gmail.com",
+    "password": "123qwe!Q",
+    "role": "Admin",
+    "timetable": []
+  },
+  {
+    "email": "tajinder@gmail.com",
+    "password": "1234qwer!Q",
+    "role": "Admin",
+    "timetable": []
+  },
+  {
+    "email": "teach1@gmail.com",
+    "password": "123qwe!Q",
+    "role": "Teacher",
+    "timetable": []
+  },
+  {
+    "email": "tajinder@gmail.com",
+    "password": "123qwe!Q",
+    "role": "Admin",
+    "timetable": []
+  },
+  {
+    "email": "teach1@gmail.com",
+    "password": "123qwe!Q",
+    "role": "Teacher",
+    "timetable": []
+  }
+]

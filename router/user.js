@@ -1,0 +1,14 @@
+import express from 'express';
+import { signup ,login ,logout} from '../controller/authController.js';
+import { updateTimetable ,getTimetable ,getdata} from '../controller/TimetableController.js';
+import {getUserImage ,upload, uploadImage} from '../controller/multerConroller.js';
+const router=express.Router();
+router.post("/signup",signup);
+router.post("/login",login);
+router.post("/updateTimetable",updateTimetable);
+router.get("/getTimetable/:email", getTimetable);
+router.get("/getUserImage/:email", getUserImage);
+router.post("/uploadImage", upload.single("profilePic"), uploadImage);
+router.post("/getdata",getdata);
+router.get("/logout",logout);
+export default router; 
