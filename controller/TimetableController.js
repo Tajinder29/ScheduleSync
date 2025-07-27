@@ -80,4 +80,19 @@ export const getdata=(req,res)=>{
     writeTeacherData(teacherData);
   res.status(200).json({message:"Leave applied and data saved successfully!"});
 }
+export const getAllTeacherLeaves=(req,res)=>{
+    if(!fs.existsSync(teacherPath)){
+       return res.status(200).json([]);
+    }
+    const data=JSON.parse(fs.readFileSync(teacherPath ,'utf-8'));
+    res.status(200).json(data);
+};
+export const getAllTeacherData=(req,res)=>{
+    if(!fs.existsSync(timetablePath)){
+        return res.status(200).json([]);
+    }
+    const data=JSON.parse(fs.readFileSync(timetablePath,'utf-8'));
+    res.status(200).json(data);
+}
+
 

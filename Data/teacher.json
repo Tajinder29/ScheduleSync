@@ -64,77 +64,9 @@
     ]
   },
   {
-    "email": "teach1@gmail.com",
-    "date": "2025-07-23",
-    "reason": "headache",
-    "timetableForDate": [
-      {
-        "day": "Thrusday",
-        "date": "2025-07-23",
-        "lecture": "Lecture 2",
-        "subjectName": "sst",
-        "roomNo": "56",
-        "startTime": "10:00",
-        "endTime": "11:00"
-      },
-      {
-        "day": "Thursday",
-        "date": "2025-07-23",
-        "lecture": "Lecture 2",
-        "subjectName": "sst",
-        "roomNo": "56",
-        "startTime": "10:00",
-        "endTime": "11:00"
-      },
-      {
-        "day": "Thursday",
-        "date": "2025-07-23",
-        "lecture": "Lecture 4",
-        "subjectName": "eng",
-        "roomNo": "56",
-        "startTime": "12:00",
-        "endTime": "01:00"
-      }
-    ]
-  },
-  {
-    "email": "teach1@gmail.com",
-    "date": "2025-07-23",
-    "reason": "headache",
-    "timetableForDate": [
-      {
-        "day": "Thrusday",
-        "date": "2025-07-23",
-        "lecture": "Lecture 2",
-        "subjectName": "sst",
-        "roomNo": "56",
-        "startTime": "10:00",
-        "endTime": "11:00"
-      },
-      {
-        "day": "Thursday",
-        "date": "2025-07-23",
-        "lecture": "Lecture 2",
-        "subjectName": "sst",
-        "roomNo": "56",
-        "startTime": "10:00",
-        "endTime": "11:00"
-      },
-      {
-        "day": "Thursday",
-        "date": "2025-07-23",
-        "lecture": "Lecture 4",
-        "subjectName": "eng",
-        "roomNo": "56",
-        "startTime": "12:00",
-        "endTime": "01:00"
-      }
-    ]
-  },
-  {
-    "email": "teach1@gmail.com",
-    "date": "",
-    "reason": "",
+    "email": "teach2@gmail.com",
+    "date": "2025-07-26",
+    "reason": "medical issues",
     "timetableForDate": []
   }
 ]

@@ -1,6 +1,6 @@
 import express from 'express';
 import { signup ,login ,logout} from '../controller/authController.js';
-import { updateTimetable ,getTimetable ,getdata} from '../controller/TimetableController.js';
+import { updateTimetable ,getTimetable ,getdata, getAllTeacherLeaves,getAllTeacherData } from '../controller/TimetableController.js';
 import {getUserImage ,upload, uploadImage} from '../controller/multerConroller.js';
 const router=express.Router();
 router.post("/signup",signup);
@@ -11,4 +11,6 @@ router.get("/getUserImage/:email", getUserImage);
 router.post("/uploadImage", upload.single("profilePic"), uploadImage);
 router.post("/getdata",getdata);
 router.get("/logout",logout);
+router.get("/getAllTeacherLeaves",getAllTeacherLeaves);
+router.get("/getAllTeacherData",getAllTeacherData);
 export default router; 
